@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pembayaran E-Wallet</title>
+<style>
+/* Gaya CSS di sini */
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Pembayaran E-Wallet</h2>
+  <form id="payment Dilzz4you" action="/proses-pembayaran" method="POST">  <!-- Ganti /proses-pembayaran dengan URL endpoint backend Anda -->
+    <div class="form-group">
+      <label for="nominal">Nominal:</label>
+      <input type="number" id="nominal" name="nominal" required>
+    </div>
+    <div class="form-group">
+      <label for="e-wallet">Pilih E-Wallet:</label>
+      <select id="e-wallet" name="e-wallet">
+        <option value="089612980156">GoPay</option>
+        <option value="089612980156">OVO</option>
+        <option value="089612980156">DANA</option>
+        <!-- Tambahkan opsi lainnya -->
+      </select>
+    </div>
+    <div class="form-group">
+      <input type="submit" value="Bayar">
+    </div>
+  </form>
+</div>
+
+<script>
+  // JavaScript untuk validasi dan penanganan formulir (opsional)
+</script>
+
+</body>
+</html>
+
